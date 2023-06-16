@@ -8,33 +8,35 @@ The following data and codes are related to the paper "Machine learning for soyb
 `requirements.txt`: The main library requirements with corresponding versions. <br>
 `random_states.txt`: Definition. <br>
 `ANN_forecasting.py`: The main code script for vanilla Artificial Neural Network **(ANN)** model. The model structure and hyperparameters as follows respectively. <br><br>
-<img src= "https://github.com/maltevb/ML_Soybean_Yield_Forecasting_Brazil/assets/63941775/f3a8591d-fb48-4664-b4b5-a5fea6e9ffaf" width=500>
+<img src= "https://github.com/maltevb/ML_Soybean_Yield_Forecasting_Brazil/assets/63941775/7a4a9b02-0dcd-4e32-b3c1-a19a829c1f46" width=500>
 
 | **Hyperparameter** | **Unit** |
 | :---:        |    :---:   |
-| Loss:      | MSE |
-| Optimizer:   | Adam |
-| Activation:   | ReLu |
-| Learning rate:   | $$10^{-4}$$ |
-| Batch size:   | $$32$$ |
-| Metric:   | Validation loss |
-| Early stopping:   | $$10$$ epochs |
-| Validation split:   | $$20 %$$ |
-| Dropout rate:   | $$30 %$$ for each hidden layer |
+| Loss      | MSE |
+| Optimizer   | Adam |
+| Activation   | ReLu |
+| Learning rate   | $$10^{-4}$$ |
+| Batch size   | $$32$$ |
+| Metric   | Validation loss |
+| Early stopping   | $$10$$ epochs |
+| Validation split   | $$20 %$$ |
+| Dropout rate   | $$30 %$$ for each hidden layer |
 
 `LSTM_forecasting.py`: The main code script for Long Short Term Memory **(LSTM)** model. The model structure and hyperparameters as follows respectively. <br><br>
-<img src= "https://github.com/maltevb/ML_Soybean_Yield_Forecasting_Brazil/assets/63941775/a360c3a4-d2c1-493a-bc8a-e3d647193ed1" width=500>
+<img src= "https://github.com/maltevb/ML_Soybean_Yield_Forecasting_Brazil/assets/63941775/bb99a50a-f7e5-467f-809f-60d11f09bcca" width=500>
 
 | **Hyperparameter** | **Unit** |
 | :---:        |    :---:   |
-| Loss:      | MSE |
-| Optimizer:   | Adam |
-| Learning rate:   | $$10^{-4}$$ |
-| Batch size:   | $$19$$ |
-| Metric:   | Validation loss |
-| Early stopping:   | $$10$$ epochs |
-| Validation split:   | $$20 %$$ |
-| Dropout rate:   | $$20 %$$ for each hidden layer |
+| Loss      | MSE |
+| Optimizer   | Adam |
+| Activation   | tanh |
+| Recurrent activation   | sigmoid |
+| Learning rate   | $$10^{-4}$$ |
+| Batch size   | $$19$$ |
+| Metric   | Validation loss |
+| Early stopping   | $$10$$ epochs |
+| Validation split   | $$20 %$$ |
+| Dropout rate   | $$20 %$$ for each hidden layer |
 
 `RF_forecasting.py`: The main code script for Random Forest model. The hyperparameters as follows. <br>
 
@@ -46,7 +48,7 @@ The following data and codes are related to the paper "Machine learning for soyb
 
 | **Hyperparameter** | **Unit** |
 | :---:        |    :---:   |
-| &alpha; (L2 regularization coefficient)  | $$1.0$$ (default) |
+| &alpha; (L2 regularization coefficient):  | $$1.0$$ (default) |
 
 `XGBoost_forecasting.py`: The main code script for XGBoost model. The hyperparameters as follows. <br>
 
