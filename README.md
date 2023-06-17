@@ -6,7 +6,7 @@ The following data and codes are related to the paper "Machine learning for soyb
 `Data_cast_Paper.csv`: The data used for the models except LSTM. It consists of 24860 rows and 128 columns. <br>
 `LSTM_data.csv`: The data used for the Long Short Term Memory **(LSTM)** model. It consists of 174020 rows and 28 columns. <br>
 `requirements.txt`: The main library requirements with corresponding versions. <br>
-`random_states.txt`: Definition. <br>
+`random_states.txt`: Contains the random states that were used to generate the results. Can be used to reproduce the states and the experiments. <br>
 `ANN_forecasting.py`: The main code script for vanilla Artificial Neural Network **(ANN)** model. The model structure and hyperparameters are as follows respectively. <br><br>
 <img src= "https://github.com/maltevb/ML_Soybean_Yield_Forecasting_Brazil/assets/63941775/7a4a9b02-0dcd-4e32-b3c1-a19a829c1f46" width=500>
 
